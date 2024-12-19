@@ -1,0 +1,87 @@
+# General Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Environment Variables
+.env
+.env.*
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.envrc
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Ignore Docker Volumes
+volumes/
+tmp/
+*.pid
+
+# Streamlit Specific
+.streamlit/
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Test Coverage Reports
+.coverage
+*.cover
+.hypothesis/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swn
+*.bak
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git Files
+*.orig
+*.rej
+*.patch
+
+# Azure Deployments
+azure-pipelines.yml
+*.azure
+*.config
+
+# Ignore Build Files
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Node.js (if applicable)
+node_modules/
+
+# Temporary Files
+*.tmp
+*.log
+*.bak
+*.cache
+*.lock
+*.gz
+
+# Static and Media Files
+staticfiles/
+media/
+uploads/
