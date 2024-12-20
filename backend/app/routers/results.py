@@ -6,7 +6,7 @@ from app.models.response_models import SavedResult
 router = APIRouter()
 
 
-@router.get("/fetch-results", response_model=List[SavedResult])
+@router.get("/fetch-saved-results", response_model=List[SavedResult])
 def list_saved_results():
     """
     List all saved results from the simulated data store.

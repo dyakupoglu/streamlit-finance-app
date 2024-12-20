@@ -6,13 +6,17 @@ from components import editable_values_input, display_results
 
 def initialize_session_state():
     if "initialized" not in st.session_state:
-        st.session_state.selected_company = None
-        st.session_state.selected_date = datetime.date.today()
-        st.session_state.input_values = []
-        st.session_state.results = None
-        st.session_state.ongoing_process = False
-        st.session_state.run_button_clicked = False
-        st.session_state.initialized = True
+        st.session_state.update(
+            {
+                "selected_company": None,
+                "selected_date": datetime.date.today(),
+                "input_values": [],
+                "results": None,
+                "ongoing_process": False,
+                "run_button_clicked": False,
+                "initialized": True,
+            }
+        )
 
 
 def is_inputs_filled():

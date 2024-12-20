@@ -5,7 +5,9 @@ load_dotenv()
 
 
 class Settings:
-    API_URL: str = os.getenv("API_URL", "http://localhost:8080/api")
+    BACKEND_URL: str = os.getenv(
+        "BACKEND_URL", "https://backend-service-91173979159.europe-west3.run.app"
+    )
 
 
 settings = Settings()

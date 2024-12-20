@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def home_page():
-    st.title("Welcome to the Finance Application")
+    st.title("Welcome to the Allianz Streamlit Application")
     st.write(
         """
     This application allows you to:
